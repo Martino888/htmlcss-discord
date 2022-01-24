@@ -17,7 +17,7 @@
     justify-content: space-between;
     width: 100%;
     height: 33px;
-    display: flex;
+    display: block;
     z-index: 100;
 }
 
@@ -27,17 +27,21 @@
 
 ul{
     list-style: none;
+    position: absolute;
+    margin-left: 25em;
+    margin-top: -33px;
 }
 
 li{
-    display: inline-block;
+    display: inline;
     padding: 8px; 
 }
 
 .button1{
-    margin-right: 200px;
+    position: absolute;
+    left: 70em;
     border: 0;
-    padding: 0 20px;
+    padding: 10px 30px;
     text-align: center;
     border-radius: 25px;
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
@@ -45,7 +49,7 @@ li{
 }
 
 .button1:hover {
-    background-color: rgb(195, 171, 171);
+    background-color: rgb(33, 110, 187);
     color:wheat;
 }
 
@@ -64,16 +68,61 @@ li{
 }
 
 nav{
-    display: flex;
+    display: inline;
+    border: solid 1px red;
 }
 
 .centre{
-    display: inline;
+    display: inline-table;
     position: absolute;
     border: 1px red solid;
     margin-top: 95px;
     width: 700px;
     height: 400px;
-    margin-left: 352px;
     text-align: center;
+    color: white;
+}
+
+.h1-heder{
+    font-size: 56px;
+}
+
+.button2{
+margin-top: 20px;
+margin-right: 2em;
+padding: 10px 30px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.button2:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.button2:hover {
+    background-color: rgb(33, 110, 187);
+    color:wheat;
+}     
+
+.button3 {
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.button3:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.button3:hover{
+    background-color: rgb(33, 110, 187);
+    color:wheat;
 }
