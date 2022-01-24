@@ -124,7 +124,6 @@ padding: 10px 30px;
 /*main*/
 
 .container-main{
-    border: 1px solid red;
     width: 100%;
     height: 650px;
     margin-top: -6px;
@@ -149,4 +148,10 @@ h2{
     left: 50em;
     top: 39em;
     text-align: inherit;
+}
+
+.onda{
+    position: absolute;
+    top:66em ;
+    color: rgb(197, 187, 187);
 }
