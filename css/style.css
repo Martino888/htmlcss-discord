@@ -66,3 +66,13 @@ li{
 nav{
     display: flex;
 }
+
+.centre{
+    display: flex;
+    position: absolute;
+    border: 1px red solid;
+    margin-top: 95px;
+    width: 700px;
+    height: 400px;
+    margin-left: 352px;
+}
